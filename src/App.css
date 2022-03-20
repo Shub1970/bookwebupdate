@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #6941e4;
+}
+.header {
+  position: relative;
+  width: 1335px;
+  height: 300px;
+  margin: 7px;
+  background: url(../public/bookshelf_header.jpg);
+  background-size: cover;
+
+  border-radius: 24.5219px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.headertitle {
+  position: absolute;
+  top: 60px;
+  left: 150px;
+  width: 1035.73px;
+  height: 123px;
+
+  font-family: "Sunflower";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 107.579px;
+  line-height: 134px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #25f913;
+}
+.bookcontainer {
+  display: grid;
+  background: #6941e4;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+  justify-content: space-around;
+}
+.bookbackground {
+  margin: 14px;
+  width: 220.07px;
+  height: 330.14px;
+  position: relative;
+  background: #9eea98;
+  border-radius: 15.1354px;
+  box-shadow: rgba(55, 15, 231, 0.842) 0px 19px 38px,
+    rgba(55, 15, 231, 0.794) 0px 15px 12px;
+}
+/*-----------------------------------------------------------------------*/
+.expandbookcontainer {
+  top: -277px;
+  left: -9px;
+  position: absolute;
+  width: 220px;
+  height: 600px;
+  background: #6941e4;
+  border-radius: 15.1354px;
+  display: grid;
+  grid-template-rows: 320px 230px 50px;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  row-gap: px;
+}
+.expandbookcontainer > img {
+  top: 3px;
+  width: 200px;
+  height: 318.73px;
+  border-radius: 16.0814px;
+}
+.discription {
+  width: 200px;
+  height: 230px;
+  border-radius: 16.0814px;
+  background: #13b0f9;
+}
+.author {
+  background: #6508df;
+  border-radius: 16.0814px;
+}
+.discription > h6 {
+  top: 10px;
+  left: 10px;
+  width: 190px;
+  height: 230px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.7961px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+.author > h6 {
+  width: 200px;
+  height: 28px;
+  color: #f8f2f2;
+  text-align: center;
+  border-radius: 16px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+/*------------------------------------------------------------*/
+.bookbackground:hover {
+  background: #6941e4;
+}
+.bookimage {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  width: 200.54px;
+  height: 318.73px;
+  border-radius: 16.0814px;
+}
